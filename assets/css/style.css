@@ -1,8 +1,12 @@
+body{
+    background-color: #9B75DB;
+}
+
 header{
 
 }
 nav{
-
+    background-color: #8074F2;
 }
 
 img{
@@ -10,7 +14,7 @@ img{
 }
 
 .under-construction{
-
+    background-color: #C574F2;
 }
 
 .contact-form{
