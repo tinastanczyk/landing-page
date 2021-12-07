@@ -1,24 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
-    background-color: #9B75DB;
+    position: relative;
+    background-color: #E3584D;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header{
-    position: fixed;
+    position: sticky;
+    top: 0px;
+    background-color:#E3584D;
+    border-bottom: 10px solid #FCA956;
 }
-nav{
-    background-color: #8074F2;
+h1{
+    text-align: left;
+    margin: 3% 0 1% 4%;
+    color: #ffffff
+    ;
 }
 
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: #FCA956;
+    margin: 0 0 0 1%;
+}
 img{
-
+    display: block;
+    margin: auto auto;
+    width: 50%;
 }
 
 .under-construction{
-    background-color: #C574F2;
+    background-color:#FA8462;
+    padding: 1%;
 }
 
 .contact-form{
+    text-align: center;
+    padding: 5%;
 
 }
 
@@ -30,8 +54,14 @@ img{
 
 }
 
-#image-caption{
+.image-caption{
+    text-align: center;
+    color: #ffffff;
+}
 
+.nav-links{
+    text-align: right;
+    margin: 0 5% 0.1% 0;
 }
 
 #form-heading{

@@ -14,11 +14,11 @@
 
 √It's done when the header contains a navigation bar with three links that display inline, including a contact link.
 
-It's done when, if the contact link is clicked, the page jumps directly to the contact form.
+√It's done when, if the contact link is clicked, the page jumps directly to the contact form.
 
 √It's done when the contact form includes input elements for name and email.
 
-It's done when the contact form includes a Send button.
+√It's done when the contact form includes a Send button.
 
 √It's done when the image includes a descriptive alt attribute.
 
@@ -34,22 +34,30 @@ It's done when the page is deployed to GitHub Pages.
 </head>
 <body>
     <!-- Create a header -->
-    <header>
-        <h1>A Landing Page</h1>
-        <nav>
-            <p>Github</p>
-            <p>Portfolio</p>
-            <p>Contact</p>
+    <header>  
+        <h1>Tina's Website</h1>
+        <nav class="nav-links">
+            <ul>
+                <li>
+                    <a href="https://github.com/tinastanczyk" target="_blank">Github</a>
+                </li>
+                <li>
+                    <a href="">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact-link">Contact</a>
+                </li>
+            </ul>
         </nav>
     </header>
-   
+   <main>
     <section class="under-construction">
         <!-- insert image here -->
         <img src="assets/images/Under Construction.jpeg" alt="Black and Yellow sign stating 'Under Construction">
         <!-- insert caption here -->
-        <p id="image-caption">Hello! This website is ~Coming Soom~</p>
+        <figcaption class="image-caption">Hello! This website is ~Coming Soom~</figcaption>
     </section>
-    <section class="contact-form">
+    <section id="contact-link" class="contact-form">
         <!-- insert contact form here -->
         <form>
             <h2 id="form-heading">Contact Form</h2>
@@ -61,8 +69,10 @@ It's done when the page is deployed to GitHub Pages.
                     <label for="email">Email: </label>
                     <input id="input-email" type="email" placeholder="Enter email here">
                 </p>
+                <input type="submit" value="Send">
         </form>
     </section>
+    </main>
     <!-- Create a footer -->
     <footer></footer>
 </body>
